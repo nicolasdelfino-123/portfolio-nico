@@ -74,13 +74,13 @@ export default function Hero({ language = "es" }) {
 
             {/* ✅ Redes sociales */}
             <div className="flex items-center justify-center md:justify-start gap-6">
-              <a href="https://github.com/tuusuario" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+              <a href="https://github.com/nicolasdelfino-123" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
                 <Github className="h-6 w-6" />
               </a>
-              <a href="https://linkedin.com/in/tuusuario" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+              <a href="https://linkedin.com/in/nico-delfi" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
                 <Linkedin className="h-6 w-6" />
               </a>
-              <a href="mailto:tu@email.com" className="text-muted-foreground hover:text-foreground transition-colors">
+              <a href="mailto:nicolasdelfino585@gmail.com" className="text-muted-foreground hover:text-foreground transition-colors">
                 <Mail className="h-6 w-6" />
               </a>
             </div>

@@ -94,14 +94,23 @@ export default function TechStack({ language = "es" }) {
             style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
           >
             {[...technologies, ...technologies].map((tech, idx) => (
-              <div key={idx} className="group flex-shrink-0 w-40 h-40 bg-card border border-border rounded-lg flex flex-col items-center justify-center gap-4 transition-all duration-300 hover:scale-105 hover:shadow-lg my-6
-">
-                <Image src={tech.image} alt={tech.name} width={64} height={64} className="object-contain group-hover:scale-110 transition-transform" />
+              <div
+                key={idx}
+                className="group flex-shrink-0 w-40 h-40 bg-card border border-border rounded-lg flex flex-col items-center justify-center gap-4 transition-all duration-300 hover:scale-105 hover:shadow-lg my-6"
+              >
+                <Image
+                  src={tech.image}
+                  alt={tech.name}
+                  width={64}
+                  height={64}
+                  className={`object-contain transition-transform duration-300 group-hover:scale-110 ${tech.invert ? "invert brightness-150" : ""}`}
+                />
                 <span className="text-sm font-medium">{tech.name}</span>
               </div>
             ))}
           </div>
         </div>
+
 
         {/* ✅ Carrusel Inferior */}
         <div className="relative">
