@@ -67,9 +67,7 @@ export default function Hero({ language = "es" }) {
               <Button size="lg" asChild>
                 <a href="#projects">{t.cta}</a>
               </Button>
-              <Button size="lg" variant="outline" onClick={handleDownloadResume}>
-                {t.resume}
-              </Button>
+
             </div>
 
             {/* ✅ Redes sociales */}
