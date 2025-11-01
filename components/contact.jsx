@@ -19,10 +19,10 @@ const translations = {
     sending: "Enviando...",
     success: "¡Mensaje enviado con éxito!",
     location: "Ubicación",
-    locationValue: "Tu Ciudad, País",
+    locationValue: "Las Varillas, Argentina",
     phone: "Teléfono",
-    phoneValue: "+XX XXX XXX XXX",
-    emailValue: "tu@email.com",
+    phoneValue: "+54 9 353 479 3366",
+    emailValue: "nicolasdelfino585@gmail.com",
   },
   en: {
     title: "Contact",
@@ -34,10 +34,10 @@ const translations = {
     sending: "Sending...",
     success: "Message sent successfully!",
     location: "Location",
-    locationValue: "Your City, Country",
+    locationValue: "Las Varillas, Argentina",
     phone: "Phone",
-    phoneValue: "+XX XXX XXX XXX",
-    emailValue: "your@email.com",
+    phoneValue: "+54 9 353 479 3366",
+    emailValue: "nicolasdelfino585@gmail.com",
   },
 }
 

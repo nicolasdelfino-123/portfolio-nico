@@ -21,11 +21,11 @@ const technologies = [
   { name: "CSS3", image: "/css-1.png" },
   { name: "Tailwind CSS", image: "/tailwind-1.png" },
   { name: "Python", image: "/python-1.png" },
-  { name: "Flask", image: "/flask-1.png" },
+  { name: "Flask", image: "/flask-1.png", invert: true },
   /*  { name: "JWT", image: "/jwt-1.png" }, */
-  { name: "PostgreSQL", image: "/postgre-1.png" },
+  { name: "PostgreSQL", image: "/postgre-1.png", invert: true },
   { name: "SQLite", image: "/sqlite-1.png" },
-  /*   { name: "SQLAlchemy", image: "/sqlalchemy-1.png" }, */
+  { name: "Bootstrap", image: "/boot-1.png" },
   { name: "Linux", image: "/linux-1.png" },
   /*   { name: "Nginx", image: "/nginx-1.svg" }, */
   /*   { name: "Gunicorn", image: "/gunicorn-1.png" }, */
@@ -113,7 +113,13 @@ export default function TechStack({ language = "es" }) {
             {[...technologies, ...technologies].map((tech, idx) => (
               <div key={idx} className="group flex-shrink-0 w-40 h-40 bg-card border border-border rounded-lg flex flex-col items-center justify-center gap-4 transition-all duration-300 hover:scale-105 hover:shadow-lg my-6
 ">
-                <Image src={tech.image} alt={tech.name} width={64} height={64} className="object-contain group-hover:scale-110 transition-transform" />
+                <Image
+                  src={tech.image}
+                  alt={tech.name}
+                  width={64}
+                  height={64}
+                  className={`object-contain transition-transform duration-300 group-hover:scale-110 ${tech.invert ? "invert brightness-150" : ""}`}
+                />
                 <span className="text-sm font-medium">{tech.name}</span>
               </div>
             ))}

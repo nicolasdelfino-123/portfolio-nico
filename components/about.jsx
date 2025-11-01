@@ -5,32 +5,36 @@ const translations = {
     title: "Sobre Mí",
     subtitle: "Conoce más sobre mi trayectoria",
     description:
-      "Soy un desarrollador full stack apasionado por crear soluciones web innovadoras y eficientes. Con experiencia en el desarrollo de aplicaciones escalables, me especializo en transformar ideas complejas en productos digitales intuitivos y de alto rendimiento.",
+      "Soy desarrollador Full Stack y disfruto convertir necesidades reales en software funcional. Construyo aplicaciones completas: desde el frontend con React hasta APIs en Flask conectadas a bases de datos PostgreSQL, desplegadas en servidores Linux.",
     highlight1:
-      "Con más de X años de experiencia en desarrollo web, he trabajado en proyectos que van desde startups hasta empresas consolidadas, siempre enfocándome en la calidad del código y la experiencia del usuario.",
+      "Desarrollé sistemas en producción que hoy usan negocios reales, como un ERP para una librería y plataformas de e-commerce con pagos, autenticación por roles y paneles de administración.",
+
     highlight2:
       "Mi enfoque combina las mejores prácticas de desarrollo con un diseño centrado en el usuario, asegurando que cada proyecto no solo funcione perfectamente, sino que también ofrezca una experiencia excepcional.",
     skills: "Habilidades Clave",
-    skill1: "Desarrollo Frontend con React, Next.js y TypeScript",
-    skill2: "Backend con Node.js, Express y bases de datos SQL/NoSQL",
-    skill3: "Arquitectura cloud y despliegue con AWS, Vercel y Docker",
-    skill4: "Metodologías ágiles y trabajo en equipo",
+    skill1: "Frontend: React, Next.js, Tailwind CSS",
+    skill2: "Backend: Flask, Python, SQLAlchemy, PostgreSQL",
+    skill3: "Autenticación, JWT, roles de usuario y REST APIs",
+    skill4: "Deploy en Linux, Nginx, VPS, Git y automatización",
+    skill5: "Metodologías ágiles y trabajo en equipo",
   },
   en: {
     title: "About Me",
     subtitle: "Learn more about my journey",
     description:
-      "I'm a full stack developer passionate about creating innovative and efficient web solutions. With experience in developing scalable applications, I specialize in transforming complex ideas into intuitive, high-performance digital products.",
+      "I'm a Full Stack developer who enjoys turning real needs into functional software. I build complete applications—from React on the frontend to Flask APIs connected to PostgreSQL databases, deployed on Linux servers.",
     highlight1:
-      "With over X years of experience in web development, I have worked on projects ranging from startups to established companies, always focusing on code quality and user experience.",
+      "I’ve developed production systems currently used by real businesses, such as an ERP for a bookstore and e-commerce platforms with payments, role-based authentication and admin dashboards.",
     highlight2:
-      "My approach combines development best practices with user-centered design, ensuring that each project not only works perfectly but also delivers an exceptional experience.",
+      "My approach combines clean development practices with a focus on usability, ensuring that every project not only works flawlessly but also provides a great user experience.",
     skills: "Key Skills",
-    skill1: "Frontend Development with React, Next.js and TypeScript",
-    skill2: "Backend with Node.js, Express and SQL/NoSQL databases",
-    skill3: "Cloud architecture and deployment with AWS, Vercel and Docker",
-    skill4: "Agile methodologies and teamwork",
-  },
+    skill1: "Frontend: React, Next.js, Tailwind CSS",
+    skill2: "Backend: Flask, Python, SQLAlchemy, PostgreSQL",
+    skill3: "Authentication, JWT, user roles and REST APIs",
+    skill4: "Deployment on Linux, Nginx, VPS, Git and automation",
+    skill5: "Agile workflows and teamwork",
+  }
+
 }
 
 export default function About({ language }) {
